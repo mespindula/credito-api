@@ -48,7 +48,7 @@ mvn clean flyway:migrate package -Dflyway.configFiles=./myFlywayConfig.conf
 	sudo docker-compose up --build
 
 ## Swagger
-	http://localhost:8080/api/swagger-ui.html
+	http://localhost:8080/swagger-ui/index.html
 
 ## Docker
-	https://hub.docker.com/r/mespindula/contas-pagar
+	https://hub.docker.com/r/mespindula/credito-api
